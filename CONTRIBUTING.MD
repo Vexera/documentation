@@ -22,7 +22,7 @@ Don't hesitate to submit one because it's a *small* change!
  
 
 	* #### Long way (to do more complex stuffs, if you know how to use git)
-		 1. [Fork the repository](https://github.com/Vexera/documentation/fork)
+		 1. [Fork the repository](https://gitlab.com/Vexera/documentation/fork)
 		 2. Create a branch for your changes
 		 3. Make your changes
 		 4. Submit a pull request against the `master` branch
