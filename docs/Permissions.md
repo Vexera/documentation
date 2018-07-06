@@ -8,11 +8,12 @@ A permission node represents a single command or a whole category of commands. E
 
 `music.play` - The 'play' command.
 `music.*` - Every command in the 'music' category.
+`*` - Every command on the bot, use with caution.
 
 A permission node can be:
 
-- **Allowed**: The command(s) can be used. e.g `admin.vckick`
-- **Denied**: The command(s) cannot be used. A denied permission is handled internally as `-music.play`
+- **Allowed**: The command(s) can be used. e.g `admin.vckick`.
+- **Denied**: The command(s) cannot be used. A denied permission is handled internally as `-music.play`.
 - **Neutral**: No override has been set.
 
 ## Where can I find permission nodes?
@@ -21,4 +22,4 @@ You can either get a list within discord by doing `+perms nodes` or by visiting 
 
 ## How do I use permissions?
 
-Permissions can be controled by using Vexera's web dashboard, or within discord by running `+perms`
+Permissions can be controled by using Vexera's web dashboard, or within Discord by running `+perms`.
