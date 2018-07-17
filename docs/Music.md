@@ -47,7 +47,6 @@ To create a playlist, which will copy the songs currently in the queue use `+pla
 ### Sharing playlists
 To share a with `+playlist` created playlist, do `+playlist share <name>`- This will generate a *paste.vexera.io* link which you can share with your friends. To play this dump, use `+play <url>`.
 
-
 ## Stopping music
 
 To stop Vexera from playing music and disconnecting it from the channel, you may want to run `+stop` at any time. This will not clear the queue!
@@ -60,3 +59,4 @@ You can either use `+join` to summon Vexera into the currently connected channel
 
 1. To get to a specific time in a song, use `+seek`, e.g. `+seek 2m10s` will resume playing from two minutes and ten seconds, this also works with hours.
 2. With Vexera-Premium you can control the volume of your currently playing song in Vexera's end by using `+volume <2-150>`.
+3. To view the lyrics of the currently playing song, do `+lyrics`, if you want to get the lyrics of a specific song do `+lyrics <songname>`.
