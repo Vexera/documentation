@@ -17,7 +17,7 @@ The muted role is created and set after the first mute has been issued. If you a
 
 ### Kicking / Banning
 If a user keeps violating the rules, you may want to **kick** or **ban** them. Vexera comes with these commands too. To kick a user from your guild, you run `+kick <ID/Mention> [Reason]`.
-To ban someone the way to go is `+ban <ID/Mention> [Time] [Reason]`. So as example to ban the user 'luke#0123' for 10 minutes, you would do `+ban luke#0123 10m Annoying staff`. To kick `luke#0123` you would use `+kick luke#0123 No common sense`.
+To ban someone the way to go is `+ban <ID/Mention> [Time] [Reason]`. So as example to ban the user `luke#0123` for 10 minutes, you would do `+ban luke#0123 10m Annoying staff`. To kick `luke#0123` you would use `+kick luke#0123 No common sense`.
 If you want your ban to be permanently just leave out the time argument.
 
 ### Softbanning
@@ -25,7 +25,7 @@ Someone has spammed in a channel and you want to **remove their messages** but n
 To softban `luke#0123` you may run `+softban luke#0123 Spam` and the channel will be free from spam.
 
 ## Infractions
-Every punishment is logged in our database, so you can access them either by setting up a mod-log by using `+modlog [channel]` and searching in it or per user by `+infractions [ID/Mention].
+Every punishment is logged in our database, so you can access them either by setting up a mod-log by using `+modlog [channel]` and searching in it or per user by `+infractions [ID/Mention]`.
 Pretty useful if you want to check, that someone **may stood out negatively in the past** already.
 
 ## Cleaning messages without punishing
