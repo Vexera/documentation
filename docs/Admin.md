@@ -31,7 +31,7 @@ Pretty useful if you want to check, that someone **may stood out negatively in t
 ## Cleaning messages without punishing
 
 To clean messages in a channel **without punishing** a user, like the softban does, you can use `+clean` Using it is pretty simple.
-To clean messages by a *specific user* in a channel, you run `+clean [Amount] [ID/Mention], if you want to clear messages by any user just leave out the User argument.
+To clean messages by a *specific user* in a channel, you run `+clean [Amount] [ID/Mention]`, if you want to clear messages by any user just leave out the User argument.
 
 ## Forcing a user to leave a voice-channel
 
