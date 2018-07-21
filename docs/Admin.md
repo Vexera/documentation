@@ -25,8 +25,8 @@ Someone has spammed in a channel and you want to **remove their messages** but n
 To softban `luke#0123` you may run `+softban luke#0123 Spam` and the channel will be free from spam.
 
 ## Infractions
-Every punishment is logged in our database, so you can access them either by setting up a mod-log by using `+modlog [channel]` and searching in it or per user by `+infractions [ID/Mention]`.
-Pretty useful if you want to check, that someone **may stood out negatively in the past** already.
+Every punishment is logged in our database, so you can access them either by setting up a mod-log by using `+log add [channel] infractions` and searching in it or per user by `+infractions [ID/Mention]`.
+Pretty useful if you want to check if someone **may stood out negatively in the past** already.
 
 ## Cleaning messages without punishing
 
