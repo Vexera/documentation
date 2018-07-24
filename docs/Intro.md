@@ -1,5 +1,4 @@
 # Documentation
-
 Welcome to Vexera's documentation page!
 
 Vexera is a free Discord music bot with other lots of other features. This documentation was made to assist users with using Vexera's features.

@@ -1,5 +1,4 @@
 # Music
-
 Vexera provides a **feature-rich music system** so you can **play music** in the voice channels of your Discord server and enjoy music *alone* or with *friends*.
 
 ## Getting started with music
@@ -17,8 +16,8 @@ Vexera can play music from YouTube, SoundCloud, Bandcamp, Twitch, Vimeo and Mixe
 
 ## Viewing the queue
 
-You can view the queue by running `+queue`. If your queue has multiple pages, you can view them by doing `+queue <page>`.
-The queue can hold up to 2000 songs. If you have reached this limit you may want to clear the queue by doing `+clear`.
+You can view the queue by running `+queue`. If your queue has multiple pages, you can view them by doing `+queue <page>`.<br/>
+The queue can hold up to 2000 songs. If you have reached this limit you may want to clear the queue by doing `+clear`.<br/>
 If you want to get some information about the currently playing song, run `+np`.
 
 ### Advanced queue control
@@ -49,6 +48,7 @@ Users can skip music by running `+skip`, if there are multiple users in the voic
 Vexera uses the node, which it thinks suits best for you, but if you are experiencing bad streaming quality, you may want to switch the voice region manually by using `+join us` for the United States or `+join eu` for Europe. With Vexera Premium you are also able to run `+join premium` to connect to the premium node. This is the default node if you purchased premium.
 
 ## Managing dumps / playlists [Premium]
+
 To create a playlist, which will copy the songs currently in the queue, use `+playlist create <name>`. To load the queue afterwards use `+playlist load <name>` and finally, to delete it use ``+playlist delete <name>`.
 
 ### Sharing playlists

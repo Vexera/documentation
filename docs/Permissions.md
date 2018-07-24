@@ -1,14 +1,13 @@
 # Permissions
-
 To control what can be used on Vexera, we offer an advanced permissions system so you can decide who can do what on your server.
 
 ## Permission Nodes
 
 A permission node represents a single command or a whole category of commands. Examples:
 
-`music.play` - The 'play' command.
-`music.*` - Every command in the 'music' category.
-`*` - Every command on the bot, use with caution.
+- `music.play` - The 'play' command.
+- `music.*` - Every command in the 'music' category.
+- `*` - Every command on the bot, use with caution.
 
 A permission node can be:
 

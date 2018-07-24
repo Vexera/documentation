@@ -20,14 +20,12 @@ Do you have an important question? Check out our FAQ below. If you still need su
 ## General issues
 
 ### Why do I see empty messages?
-
 This is a client-side problem. Please check if **Link Preview** is enabled.<br/>
 To check, go to *User Settings* -> *Text & Images* -> *Link Preview*.<br/>
-Enable **Show website preview info from links pasted into chat.**. <br/>
+Enable **Show website preview info from links pasted into chat.**.<br/>
 You should now be able to see embed messages.
 
 ### Vexera is not responding to my commands
-
 First of all, you should check if Vexera has permission to view the text channel you are using for bot commands.<br/>
 If this seems to work, try `+channeltoggle`. Commands might have been disabled in the channel.<br/>
 If that still does not work, try resetting the prefix to its default (`+`) by doing `@Vexera#8487 prefix disable`.<br/>
@@ -35,7 +33,6 @@ Last but not least you should check if you used an `+accessrole` to only allow o
 Owners bypass all permissions for Vexera and can use `+accessrole disable` without adding the role to themselves first.
 
 ### Where, why and how to donate?
-
 If you subscribe for $3/month via <a href="https://www.patreon.com/bePatron?c=703870&rid=1291630" target="_blank">Patreon</a>, you get access to all the premium features.<br/>
 Alternatively, you can make a one-time purchase on <a href="https://selly.gg/u/vexera" target="_blank">Selly</a>.<br/>
 **Important information:** You get the features on every server you **own**!
@@ -43,20 +40,17 @@ Alternatively, you can make a one-time purchase on <a href="https://selly.gg/u/v
 ## Music issues
 
 ### Vexera is not joining my voice channel
-
 First, you should take a look at the channel- and role-permissions of Vexera. Make sure Vexera has permission to join the voice channel and also speak in it.<br/>
 You should also check if the link you entered is **valid**. The bot only accepts YouTube, Twitch, SoundCloud and Mixer links.<br/>
 Additionally, premium members are able to use **HTTP streams**. Want to know more about premium perks? [Click here](https://vexera.io/premium).
 
 ### Vexera is saying "Voice Connection Timeout"
-
 Try kicking Vexera out of the voice channel by using `+vckick @Vexera#8487` to reset the voice connection.<br/>
 If that doesn't work, switch the region the bot is connected to: `+join eu` if you're on the **US** node, `+join us` if you're on the **EU** node. If you are a premium user you can also do `+join premium`.<br/>
 To check what voice node you are on, look at the bottom of the last *Now Playing* message. Alternatively, Vexera uses the node, which is closest to your server voice region.<br/>
 When you're all done, play music again.
 
 ### Vexera is in a voice channel but is not playing anything
-
 You're most likely experiencing the ["Voice Connection Timeout"](#vexera-is-saying-voice-connection-timeout) issue.<br/>
 Try kicking Vexera out of the voice channel by using `+vckick @Vexera#8487` to reset the voice connection.<br/>
 If that doesn't work, switch the region the bot is connected to: `+join eu` if you're on the **US** node, `+join us` if you're on the **EU** node. If you are a premium user you can also do `+join premium`.<br/>
@@ -66,13 +60,11 @@ When you're all done, play music again.
 ## Admin issues
 
 ### Some admin features do not work
-
 If for example the `+ban` command does not work, you should check Vexera's role- and channel-permissions.<br/>
 In general, we **recommend** you to give Vexera the `Administrator` permission. This way, everything should work as intended.<br/>
 Second, check if the highest role of Vexera is above the highest role of the target user.
 
 ### How do you use +autorole?
-
 The `+autorole` command is for letting the bot add roles to users or bots when they join, or when members use `+getrole`.<br/>
 To give users who join the server the *Members* role, use `+autorole add join Members`.<br/>
 To assign the *Bots* role to bots when they join, use `+autorole add bot Bots`.<br/>
@@ -82,11 +74,9 @@ To remove any of these autoroles just replace `add` with `remove`. Do not forget
 **Vexera's highest role must be above the role it is trying to assign!**
 
 ### How can I let my friends use commands they do not have permission to?
-
 For information about permissions, please visit our [documentation about Permissions](/docs/permissions).
 
 ### How do I limit Vexera to a specific role?
-
 First, setup a role, if there is not already one.<br/>
 Then, assign the role to people you want to be able to use Vexera.<br/>
 Finally, execute the command `+accessrole <rolename>`.<br/>
