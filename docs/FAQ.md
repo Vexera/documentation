@@ -69,10 +69,10 @@ In general, we **recommend** you to give Vexera the `Administrator` permission. 
 Second, check if the highest role of Vexera is above the highest role of the target user.
 
 ### How do you use +autorole?
-For information about autorole, please visit our [documentation about Autoroles](/docs/autorole).
+For information about autorole, please visit our [documentation about autoroles](/docs/autorole).
 
 ### How can I let my friends use commands they do not have permission to?
-For information about permissions, please visit our [documentation about Permissions](/docs/permissions).
+For information about permissions, please visit our [documentation about permissions](/docs/permissions).
 
 ### How do I limit Vexera to a specific role?
 First, setup a role, if there is not already one.<br/>
