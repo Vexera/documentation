@@ -1,5 +1,5 @@
 # Frequently Asked Questions (FAQ)
-Do you have an important question? Check out our FAQ below. If you still need support after reading through the FAQ, feel free to contact us on our [Discord](https://discord.gg/VzbRGWF).
+Do you have an important question? Check out our FAQ below. If you still need support after reading through the FAQ, feel free to contact us on our <a href="https://discord.gg/VzbRGWF" target="_blank">Discord</a>.
 
 ## Table of Contents:
 
@@ -36,8 +36,8 @@ Owners bypass all permissions for Vexera and can use `+accessrole disable` witho
 
 ### Where, why and how to donate?
 
-If you subscribe for $3/month via [Patreon](https://www.patreon.com/bePatron?c=703870&rid=1291630), you get access to all the premium features.<br/>
-Alternatively, you can make a one-time purchase on [Selly](https://selly.gg/u/vexera).<br/>
+If you subscribe for $3/month via <a href="https://www.patreon.com/bePatron?c=703870&rid=1291630" target="_blank">Patreon</a>, you get access to all the premium features.<br/>
+Alternatively, you can make a one-time purchase on <a href="https://selly.gg/u/vexera" target="_blank">Selly</a>.<br/>
 **Important information:** You get the features on every server you **own**!
 
 ## Music issues
