@@ -6,6 +6,7 @@ Vexera is a free Discord music bot with other lots of other features. This docum
 Topics:
 
 1. [FAQ](/docs/faq)
-1. [Admin](/docs/admin)
-2. [Music](/docs/music)
-3. [Permissions](/docs/permissions)
+2. [Admin](/docs/admin)
+3. [Autorole](/docs/autorole)
+4. [Music](/docs/music)
+5. [Permissions](/docs/permissions)
