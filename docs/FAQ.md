@@ -78,5 +78,6 @@ For information about permissions, please visit our [documentation about permiss
 First, setup a role, if there is not already one.<br/>
 Then, assign the role to people you want to be able to use Vexera.<br/>
 Finally, execute the command `+accessrole <rolename>`.<br/>
-**Note:** If you want to disable the accessrole, use `+accessrole disable`.<br/>
+**Note:** the `<`/`>` are not actually used in the command.<br/>
+If you want to disable the accessrole, use `+accessrole disable`.<br/>
 If you locked yourself out, assign the role to yourself, which has been used for `+accessrole`.
