@@ -65,13 +65,7 @@ In general, we **recommend** you to give Vexera the `Administrator` permission. 
 Second, check if the highest role of Vexera is above the highest role of the target user.
 
 ### How do you use +autorole?
-The `+autorole` command is for letting the bot add roles to users or bots when they join, or when members use `+getrole`.<br/>
-To give users who join the server the *Members* role, use `+autorole add join Members`.<br/>
-To assign the *Bots* role to bots when they join, use `+autorole add bot Bots`.<br/>
-To let users get the *User* role by typing `+getrole User`, use `+autorole add get User`.<br/>
-To remove any of these autoroles just replace `add` with `remove`. Do not forget the type (`join`, `bot`, `get`)!<br/>
-**Note:** You can see all autoroles with the `+autorole list`.<br/>
-**Vexera's highest role must be above the role it is trying to assign!**
+For information about autorole, please visit our [documentation about Autoroles](/docs/autorole).
 
 ### How can I let my friends use commands they do not have permission to?
 For information about permissions, please visit our [documentation about Permissions](/docs/permissions).
