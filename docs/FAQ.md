@@ -15,8 +15,8 @@ Do you have an important question? Check out our FAQ below. If you still need su
 * [Admin issues](#admin-issues)
     * [Some admin features do not work](#some-admin-features-do-not-work)
     * [How do you use +autorole?](#how-do-you-use-autorole)
-    * [How can I let my friends use commands they do not have permission to?](#how-can-i-let-my-friends-use-commands-they-do-not-have-permission-to)
-    * [How do I limit Vexera to a specific role?](#how-do-I-limit-vexera-to-a-specific-role)
+    * [How do I use the built-in permission system?](#how-do-i-use-the-built-in-permission-system)
+    * [How do I limit Vexera to a specific role?](#how-do-i-limit-vexera-to-a-specific-role)
 
 ## General issues
 
@@ -71,8 +71,8 @@ Second, check if the highest role of Vexera is above the highest role of the tar
 ### How do you use +autorole?
 For information about autorole, please visit our [documentation about autoroles](/docs/autorole).
 
-### How can I let my friends use commands they do not have permission to?
-For information about permissions, please visit our [documentation about permissions](/docs/permissions).
+### How do I use the built-in permission system?
+For information about the built-in permission system, please visit our [documentation about permissions](/docs/permissions).
 
 ### How do I limit Vexera to a specific role?
 First, setup a role, if there is not already one.<br/>
