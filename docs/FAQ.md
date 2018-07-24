@@ -11,6 +11,7 @@ Do you have an important question? Check out our FAQ below. If you still need su
     * [Vexera is not joining my voice channel](#vexera-is-not-joining-my-voice-channel)
     * [Vexera is saying "Voice Connection Timeout"](#vexera-is-saying-voice-connection-timeout)
     * [Vexera is in a voice channel but is not playing anything](#vexera-is-in-a-voice-channel-but-is-not-playing-anything)
+    * ["The queue can only hold 2000 songs!"](#the-queue-can-only-hold-2000-songs)
 * [Admin issues](#admin-issues)
     * [Some admin features do not work](#some-admin-features-do-not-work)
     * [How do you use +autorole?](#how-do-you-use-autorole)
@@ -56,6 +57,9 @@ Try kicking Vexera out of the voice channel by using `+vckick @Vexera#8487` to r
 If that doesn't work, switch the region the bot is connected to: `+join eu` if you're on the **US** node, `+join us` if you're on the **EU** node. If you are a premium user you can also do `+join premium`.<br/>
 To check what voice node you are on, look at the bottom of the last *Now Playing* message. Alternatively, Vexera uses the node, which is closest to your server voice region.<br/>
 When you're all done, play music again.
+
+### "The queue can only hold 2000 songs!"
+The queue is capable of holding up to 2000 songs. To reset the queue, use `+clear`, otherwise you will not be able to add new songs to the queue.
 
 ## Admin issues
 
