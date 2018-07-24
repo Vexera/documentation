@@ -6,7 +6,7 @@ Do you have an important question? Check out our FAQ below. If you still need su
 * [General issues](#general-issues)
     * [Why do I see empty messages?](#why-do-i-see-empty-messages)
     * [Vexera is not responding to my commands](#vexera-is-not-responding-to-my-commands)
-    * [Where, why and how to donate?](#where-why-and-how-to-donate)
+    * [Where, why and how to get premium?](#where-why-and-how-to-get-premium)
 * [Music issues](#music-issues)
     * [Vexera is not joining my voice channel](#vexera-is-not-joining-my-voice-channel)
     * [Vexera is saying "Voice Connection Timeout"](#vexera-is-saying-voice-connection-timeout)
@@ -33,7 +33,7 @@ If that still does not work, try resetting the prefix to its default (`+`) by do
 Last but not least you should check if you used an `+accessrole` to only allow one role to use the bot. If so, add the role to yourself and do `+accessrole disable`.<br/>
 Owners bypass all permissions for Vexera and can use `+accessrole disable` without adding the role to themselves first.
 
-### Where, why and how to donate?
+### Where, why and how to get premium?
 If you subscribe for $3/month via <a href="https://www.patreon.com/bePatron?c=703870&rid=1291630" target="_blank">Patreon</a>, you get access to all the premium features.<br/>
 Alternatively, you can make a one-time purchase on <a href="https://selly.gg/u/vexera" target="_blank">Selly</a>.<br/>
 **Important information:** You get the features on every server you **own**!
