@@ -41,3 +41,14 @@ Want to meme around with your friends? This is for you then.
 ### Detecting Images
 Vexera can **detect** the last posted picture to use for a command.  
 Try it out by uploading an image in Discord in a specific channel and use as example the `+mistake` command.
+
+## Image-Commands
+
+You're a *little bored*? These commnads will help you!
+
+1. Want some **cute images**?
+    * You can either make Vexera generate a dog-, cat- or doge-image using `+dog`, `+cat` or `+doge`.
+2. Want a **weeb image**?
+    * You have a wide list of weebs to generate, check them using `+weeb list` and use `+weeb <type>` at the end.
+3. Want to read a **comic**?
+    * You can get a XKCD-comic using `+xkcd <comic>`.
