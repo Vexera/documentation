@@ -25,13 +25,20 @@ You can either post this greeting:
 * In a channel, eg #general
 * In direct messages (dm)
    * be warned, that the user who joins the server needs to have direct messages enabled to get this message.
+ 
 
-Also, using variables you are able to mention the user, just display the username or display the servername.  
+### Farewells
+To say goodbye to people who left your server, do `+farewell <channel> [text]  
+So as example, you could do `+farewell #general Bye, bye %username%!  
+You are not able to use `dm` as the channel argument as Vexera isn't able to predict when a user leaves.
+
+###### Variables
+
+Using variables, you are able to mention the user, just display the username or display the servername.  
 These should be included in the text as follows:
 
- Variable | Usage | Display
- -------- | ----- | -------
- %mention% | +greeting #general Welcome %mention% to my server! | Welcome @luke#0123 to my server!
- %server% | +greeting dm Welcome to %server%! Have fun out there! | Welcome to Vexera Official! Have fun out there!
- 
-### Farewells
+ Variable | Used in | Usage | Display
+ :--------: | :-------: | :----- | -------:
+ %mention% | Greeting | +greeting #general Welcome %mention% to my server! | Welcome @luke#0123 to my server!
+ %username% | Greeting & Farewell | +greeting #general Welcome %username& in my server! | Welcome luke#0123 in my server! 
+ %server% | Greeting & Farewell | +greeting dm Welcome to %server%! Have fun out there! | Welcome to Vexera Official! Have fun out there!
