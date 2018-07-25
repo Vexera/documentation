@@ -3,7 +3,8 @@ Vexera supplies you with many **moderation- and admin-commands**. Useful for man
 
 ## Punishing Users 
 
-You got a **large range of commands to punish people**. Here, we will show and describe all of them.
+You got a **large range of commands to punish people**. Here, we will show and describe all of them.  
+To set a logging-channel for infractions, check out [Logging](/docs/settings#logging)
 
 ### Warning
 You can **warn** people by using `+warn <ID/Mention> [Reason]`.<br/>
@@ -23,10 +24,6 @@ If you want your ban to be permanently just leave out the time argument.
 ### Softbanning
 Someone has spammed in a channel and you want to **remove their messages** but not to ban them yet? Then `+softban` is for you! The softban bans a user from your server, deletes the messages in the past seven days and immediately unbans them after.<br/>
 To softban `luke#0123` you may run `+softban luke#0123 Spam` and the channel will be free from spam.
-
-## Infractions
-Every punishment is logged in our database, so you can access them either by setting up a mod-log by using `+log add [channel] infractions` and searching in it or per user by `+infractions [ID/Mention]`.<br/>
-Pretty useful if you want to check if someone **may stood out negatively in the past** already.
 
 ## Cleaning messages without punishing
 
