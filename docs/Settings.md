@@ -69,7 +69,7 @@ The `action` argument is either `add` or `remove`, the channel is something like
 Event | What it does | Usage
 ----- | ------------ | -------
 joins | Displays recently joined users | +log add #join-log joins
-leaves | Displayes recently left users | +log add #leave-log leaves
+leaves | Displays recently left users | +log add #leave-log leaves
 infractions | Displays recently punished users | +log add #infractions infractions
 
 The events **can be bound together**, so as example `+log add #join-leaves joins leaves`.
