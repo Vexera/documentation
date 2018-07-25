@@ -35,7 +35,7 @@ You can either post this greeting:
 
 ### Farewells
 To say goodbye to people who left your server, do `+farewell <channel> [text]`  
-So as example, you could do `+farewell #general Bye, bye %username%!  
+So as example, you could do `+farewell #general Bye, bye %username%!`  
 You are **not** able to use `dm` as the channel argument as Vexera isn't able to predict when a user leaves.
 
 ###### Variables
@@ -62,7 +62,7 @@ To set the default language on your **server**, you may want to run as example `
 
 ## Logging
 
-In Vexera you can log infractions, so punishments and joins and leaves.  
+In Vexera you can log infractions, so punishments as well as joins and leaves.  
 To set those up, you use the command `+log <action> <channel> [events]`
 The `action` argument is either `add` or `remove`, the channel is something like `#mod-log` or `#join-log` and the events are listed as follows:
 
