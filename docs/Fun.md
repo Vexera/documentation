@@ -37,6 +37,9 @@ Want to meme around with your friends? This is for you then.
     * Do `+illegal <text>` to officially forbid something around the world.
 6. Someone made a **HUGE mistake**? This is for you then.
     * Do `+mistake <image>` to document this for future researches.
+7. Want to show your friends how huge (or not) your **penis** is?
+    * You can do that now! Use `+penis` for yourself and `+penis <ID/Mention` for another user.
+    * Hint: If you use this commnad in a nsfw-channel, the symbols will be changed to emotes.
 
 ### Detecting Images
 Vexera can **detect** the last posted picture to use for a command.  
