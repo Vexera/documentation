@@ -7,7 +7,7 @@ Don't hesitate to submit one because it's a *small* change!
  2. Before making big changes, discuss them on the <a href="https://discord.gg/VzbRGWF" target="_blank">official Vexera server</a>.
  3. We normally merge pull requests by squashing all commits to have a clean history in the master branch. Exceptions apply (see rule #4).
  4. When you are doing big changes, you may want to split the changes into multiple commits. To have them merged as is, be sure to not have commits like `Fixing previous commit`.
- 5. To comply with the <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC license</a>, if you import changes on the behalf of someone else, don't forget to set the author of your commits to the original author of the changes.
+ 5. To comply with the <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0 license</a>, if you import changes on the behalf of someone else, don't forget to set the author of your commits to the original author of the changes.
 
 ## How to submit changes
 * ### You don't have push access to this repository
