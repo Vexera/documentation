@@ -6,12 +6,13 @@ The bot is made to be very simple to use and to get to what you want to do with 
 
 ## Topics:
 
-1. [FAQ](/docs/faq)
-2. [Music](/docs/music)
-3. [Admin](/docs/admin)
-4. [Permissions](/docs/permissions)
-5. [Autorole](/docs/autorole)
-6. [Settings](/docs/settings)
-7. [Fun](/docs/fun)
-8. [Games](/docs/games)
-9. [Info](/docs/info)
+1. [Getting Started](/docs/gs)
+2. [FAQ](/docs/faq)
+3. [Music](/docs/music)
+4. [Admin](/docs/admin)
+5. [Permissions](/docs/permissions)
+6. [Autorole](/docs/autorole)
+7. [Settings](/docs/settings)
+8. [Fun](/docs/fun)
+9. [Games](/docs/games)
+10. [Info](/docs/info)
