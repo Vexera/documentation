@@ -9,7 +9,7 @@ Vexera provides a **feature-rich music system** so you can **play music** in the
 4. Queue up additional music using `+play`!
 
 ### Searching a song
-If Vexera adds an incorrect song to the queue, you can either copy the song's URL and `+play` it, or you try to use `+search <query>` to be able to select a song out of the first five YouTube-results. Just write the number of the wished song after issuing the command.  
+If Vexera adds an incorrect song to the queue, you can either copy the song's URL and `+play` it, or you try to use `+search <query>` to be able to select a song out of the first five YouTube results. Just write the number of the wished song after issuing the command.  
 
 ### Music sources
 Vexera can play music from YouTube, SoundCloud, Bandcamp, Twitch, Vimeo and Mixer. With Vexera Premium you are able to play a song from a custom url, for example `+play https://example.com/files/BrainPower.mp3`.
@@ -22,12 +22,12 @@ If you want to get some information about the currently playing song, run `+np`.
 
 ### Advanced queue control
 
-1. If you want to **randomize** the current song-order, you may feel free to run `+shuffle` to shuffle all songs, which are currently in the queue.
+1. If you want to **randomize** the current song order, you may feel free to run `+shuffle` to shuffle all songs, which are currently in the queue.
 2. You are tired of using `+play` to replay a song over and over again? You can either use `+repeat one` to **repeat** the currently playing song or `+repeat all` to repeat the whole queue. To disable that, do `+repeat off`.
 3. You added a *wrong song* to your queue? Check the queue ID in `+queue` and do `+delete <queue-ID>` to **delete** the specific song.
 4. You want to play the *last played* song once **again**? Use `+back` for doing that. 
 5. You want to get to a **specific point** in the queue? Check the queue ID in `+queue` and use `+jump <queue-ID>` to start playing that song!
-
+6. You want to play something while the queue is empty? Using `+autoplay`, you can make the bot play a file, a playlist or a livestreeam while the queue is empty!
 ## Stopping music
 
 To stop Vexera from playing music and disconnecting it from the channel, you may want to run `+stop` at any time. This will not clear the queue!
@@ -49,10 +49,10 @@ Vexera uses the node, which it thinks suits best for you, but if you are experie
 
 ## Managing dumps / playlists [Premium]
 
-To create a playlist, which will copy the songs currently in the queue, use `+playlist create <name>`. To load the queue afterwards use `+playlist load <name>` and finally, to delete it use ``+playlist delete <name>`.
+To create a playlist, which will copy the songs currently in the queue, use `+playlist create <name>`. To load the queue afterwards use `+playlist load <name>` and finally, to delete it use `+playlist delete <name>`.
 
 ### Sharing playlists
-To share a playlist you created with `+playlist`, use `+playlist share <name>`- This will generate a *paste.vexera.io* link, which you can share with your friends. To play this dump, use `+play <url>`.
+To share a playlist you created with `+playlist`, use `+playlist share <name>`. This will generate a *paste.vexera.io* link, which you can share with your friends. To play this dump, use `+play <url>`.
 
 ## Advanced music control
 

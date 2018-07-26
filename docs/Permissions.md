@@ -15,7 +15,7 @@ A permission node can be:
 - **Denied**: The command(s) cannot be used. A denied permission is handled internally as `-music.play`.
 - **Neutral**: No override has been set.
 
-## Where can I find permission nodes?
+## Where can I find all the permission nodes?
 
 You can either get a list within discord by doing `+perms nodes` or by visiting the [commands page](https://vexera.io/commands).
 

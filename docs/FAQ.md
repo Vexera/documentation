@@ -41,7 +41,7 @@ Alternatively, you can make a one-time purchase on <a href="https://selly.gg/u/v
 ## Music issues
 
 ### Vexera is not joining my voice channel
-First, you should take a look at the channel- and role-permissions of Vexera. Make sure Vexera has permission to join the voice channel and also speak in it.<br/>
+First, you should take a look at the channel and role permissions of Vexera. Make sure Vexera has permission to join the voice channel and also speak in it.<br/>
 You should also check if the link you entered is **valid**. The bot only accepts YouTube, Twitch, SoundCloud and Mixer links.<br/>
 Additionally, premium members are able to use **HTTP streams**. Want to know more about premium perks? [Click here](https://vexera.io/premium).
 
@@ -64,7 +64,7 @@ The queue is capable of holding up to 2000 songs. To reset the queue, use `+clea
 ## Admin issues
 
 ### Some admin features do not work
-If for example the `+ban` command does not work, you should check Vexera's role- and channel-permissions.<br/>
+If, for example, the `+ban` command does not work, you should check Vexera's role and channel permissions.<br/>
 In general, we **recommend** you to give Vexera the `Administrator` permission. This way, everything should work as intended.<br/>
 Second, check if the highest role of Vexera is above the highest role of the target user.
 
