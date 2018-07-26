@@ -1,39 +1,38 @@
-# Info & Miscellanous 
+# Info & miscellaneous
 
 There are some commands which are not used very often but are **pretty useful anyways**.  
 These are listed here.
 
-## Info-Commands
+## Info Commands
 
 Commands which display **general information** about specific stuff.
 
-### General info-commands
-* To get a **more-compressed** way of a list of commands, use `+help`.  
+### General info commands
+* To get a **more-compressed** way of a list of commands, use `+help`.
 * To check if the bot is online, or if it **responds** in general, do `+ping`.  
 * In order to get the **invite-link** once more, do `+invite`
 * To check the current **voice-connections, servers, users** and **much more**, do `+stats`.
 
-##### Adcanced info-commands
-* To check the **usage** of all **clusters**, as well as the cluster your server is on, run `+clusterinfo`.
-* To check the **usage** of Vexeras **voice-nodes**, do `+nodeinfo`.
-* To check if Vexera currently has any **offline** voice-nodes, clusters or shards, do `+health`.
-
+##### Advanced info commands
+* To check the **usage** of all **clusters**, as well as the cluster your server is on, use `+clusterinfo`.
+* To check the **usage** of Vexeras **voice-nodes**, use `+nodeinfo`.
+* To check if Vexera currently has any **offline** voice-nodes, clusters or shards, use `+health`.
 
 ### Premium
-You have some **info-premium commands** too:  
+You have some **premium info commands** too:  
 
 * You can get more **info** about premium by using `+premium`.  
-* To check the currenly set **premium-messages** or set your own, do `+donators [text]`. Your text will be displayed on top if you're pledge on Patreon is **higher** than the ones displayed.
-* To transfer your **Patreon**-subscription to another user, do `+tranfer <ID/Mention>`.
-* To check your or the **premium-status** of another user, do `+status <ID/Mention>`.
-* You have won or bought a premium-key? You can **redeem** it by using `+redeem <key>`.
+* To check the currenly set **premium messages** or set your own, do `+donators [text]`. Your text will be displayed on top if you're pledge on Patreon is **higher** than the ones displayed.
+* To transfer your **Patreon** subscription to another user, do `+tranfer <ID/Mention>`.
+* To check yours or the **premium status** of another user, do `+status <ID/Mention>`.
+* You have won or bought a premium key? You can **redeem** it by using `+redeem <key>`.
 
 ## Miscellanous-Commands
 
 There are some commands which can be **pretty helpful** sometimes.
 
 ### Checking invites
-You can check the **amount people have invited** by invites which are *currently there*.  
+You can check the **amount of people a user has invited** using invites which are *still active*.  
 Invites which have been deleted are not included in this value. To use the command, do `+invites <ID/Mention>.`
 
 ### Server & Userinfo
