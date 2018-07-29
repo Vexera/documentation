@@ -11,4 +11,4 @@ PlayStation 4 | ps4
 Laptop / Computer | pc
 XBox | xbox
 
-For example `+fortnite ps4 iamlukej` would list0 `iamlukej`'s stats on PS4.
+For example `+fortnite ps4 iamlukej` would list `iamlukej`'s stats on PS4.
