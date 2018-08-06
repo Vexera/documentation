@@ -39,10 +39,19 @@ Invites which have been deleted are not included in this value. To use the comma
 To get some useful *information about a user*, do `+userinfo <ID/Mention>`.  
 To get the same, but for the server, do `+serverinfo`
 
+### Wolfram
+Want a **fast answer to a question**? Wolfram is for you!  
+Wolfram can tell you nearly everything you want to know, try out some stuff like `+wolfram sqrt(9)` or `+wolfram capital of canada`.
+
+### Logo
+Want to get your own Vexera-logo? We have an API for that!
+
+Command | First Line | Second Line | Output
+------ | ---------- | ----------- | ------
++logo | Vexera | is awesome! | ![alt text](https://paste.vexera.io/65ff25.png)
+
 ### Botlist
 To check the currently *leading bots* of Discord by the servercount, do `+botlist [page]`.  
 This will use *Carbonitex* as the source.
 
-### Wolfram
-Want a **fast answer to a question**? Wolfram is for you!  
-Wolfram can tell you nearly everything you want to know, try out some stuff like `+wolfram sqrt(9)` or `+wolfram capital of canada`.
+
