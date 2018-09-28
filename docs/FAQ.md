@@ -13,7 +13,7 @@ Do you have an important question? Check out our FAQ below. If you still need su
     * [Vexera is in a voice channel but is not playing anything](#vexera-is-in-a-voice-channel-but-is-not-playing-anything)
     * ["The queue can only hold 2000 songs!"](#the-queue-can-only-hold-2000-songs)
 * [Admin issues](#admin-issues)
-    * [Some admin features do not work](#some-admin-features-do-not-work)
+    * [Why are some admin features not working?](#why-are-some-admin-features-not-working)
     * [How do you use +autorole?](#how-do-you-use-autorole)
     * [How do I use the built-in permission system?](#how-do-i-use-the-built-in-permission-system)
     * [How do I limit Vexera to a specific role?](#how-do-i-limit-vexera-to-a-specific-role)
@@ -63,7 +63,7 @@ The queue is capable of holding up to 2000 songs. To reset the queue, use `+clea
 
 ## Admin issues
 
-### Some admin features do not work
+### Why are some admin features not working?
 If, for example, the `+ban` command does not work, you should check Vexera's role and channel permissions.<br/>
 In general, we **recommend** you to give Vexera the `Administrator` permission. This way, everything should work as intended.<br/>
 Second, check if the highest role of Vexera is above the highest role of the target user.
