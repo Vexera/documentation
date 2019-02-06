@@ -3,22 +3,22 @@ Vexera supplies you with many **moderation and admin commands**. Useful for mana
 
 ## Punishing Users
 
-You got a **large range of commands to punish people**. Here, we will show and describe all of them.
-To set a logging channel for infractions, check out [Logging](/docs/settings#logging)
+You got a **large range of commands to punish people**. Here, we will show and describe all of them.<br/>
+To set a logging channel for infractions, check out [Logging](/docs/settings#logging).
 
 ### Warning
-You can **warn** people by using `+warn <ID/Mention> [Reason]`.<br/>
+You can **warn** people by using `+warn <User> [Reason]`.<br/>
 For example, to warn the user `luke#0123` for misleading content, you may run `+warn luke#0123 Misleading Content`.
 
 ### Muting
-You can **mute** people permanently or temporarily by using `+mute <ID/Mention> [Time] [Reason]`.<br/>
+You can **mute** people permanently or temporarily by using `+mute <User> [Time] [Reason]`.<br/>
 For example, to mute the user `luke#0123` for one week and 2 days, you would use `+mute luke#0123 1w2d Spamming`.<br/>
 If you want your mute to be permanent, just leave out the time argument.<br/>
-The muted role is created and set after the first mute has been issued. If you are having problems with the role, feel free to delete it in your server settings and mute someone afterwards so the roles is re-created.
+The muted role is created and set after the first mute has been issued. If you are having problems with the role, feel free to delete it in your server settings and mute someone afterwards so the role is re-created.
 
 ### Kicking / Banning
-If a user keeps violating the rules, you may want to **kick** or **ban** them. Vexera comes with these commands too. To kick a user from your guild, you use `+kick <ID/Mention> [Reason]`.<br/>
-To ban someone the way to go is `+ban <ID/Mention> [Time] [Reason]`. So for example to ban the user `luke#0123` 10 minutes, you would use `+ban luke#0123 10m Annoying staff`. To kick `luke#0123` you would use `+kick luke#0123 No common sense`.<br/>
+If a user keeps violating the rules, you may want to **kick** or **ban** them. Vexera comes with these commands too. To kick a user from your guild, you use `+kick <User> [Reason]`.<br/>
+To ban someone the way to go is `+ban <User> [Time] [Reason]`. So, for example, to ban the user `luke#0123` for 10 minutes, you would use `+ban luke#0123 10m Annoying staff`. To kick `luke#0123` you would use `+kick luke#0123 No common sense`.<br/>
 If you want your ban to be permanent, just leave out the time argument.
 
 ### Softbanning
@@ -28,7 +28,7 @@ To softban `luke#0123` you may use `+softban luke#0123 Spam` and the channel wil
 ## Cleaning messages without punishing
 
 To clean messages in a channel **without punishing** a user, like the softban does, you can use `+clean`. Using it is pretty simple.<br/>
-To clean messages by a *specific user* in a channel, you use `+clean [Amount] [ID/Mention]`. If you want to clear messages by any user just leave out the User argument.
+To clean messages by a *specific user* in a channel, you use `+clean [Amount] [User]`. If you want to clear messages by any user just leave out the User argument.
 
 ## Forcing a user to leave a voice channel
 

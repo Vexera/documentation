@@ -7,7 +7,7 @@ A permission node represents a single command or a whole category of commands. E
 
 - `music.play` - The 'play' command.
 - `music.*` - Every command in the 'music' category.
-- `*` - Every command on the bot, use with caution.
+- `*` - Every command on the bot. Use with caution.
 
 A permission node can be:
 
@@ -17,8 +17,8 @@ A permission node can be:
 
 ## Where can I find all the permission nodes?
 
-You can either get a list within discord by doing `+perms nodes` or by visiting the [commands page](https://vexera.io/commands).
+You can either get a list within discord by doing `+perms nodes` or by visiting the [commands page](/commands).
 
 ## How do I use permissions?
 
-Permissions can be controled by using Vexera's web dashboard, or within Discord by running `+perms`.
+Permissions can be controled by using [Vexera's web dashboard](/auth), or within Discord by running `+perms`.

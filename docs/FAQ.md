@@ -6,7 +6,10 @@ Do you have an important question? Check out our FAQ below. If you still need su
 * [General issues](#general-issues)
     * [Why do I see empty messages?](#why-do-i-see-empty-messages)
     * [Vexera is not responding to my commands](#vexera-is-not-responding-to-my-commands)
+    * [Vexera is responding with random or shockingly accurate messages](#vexera-is-responding-with-random-or-sockingly-acurate-messages)
     * [Where, why and how to get premium?](#where-why-and-how-to-get-premium)
+    * [I bought Vexera Premium but the features do not work](#i-bought-vexera-premium-but-the-features-do-not-work)
+    * [I bought Vexera Pro but the bot keeps leaving my server when I invite it](#i-bought-vexera-pro-but-the-bot-keeps-leaving-my-server-when-i-invite-it)
 * [Music issues](#music-issues)
     * [Vexera is not joining my voice channel](#vexera-is-not-joining-my-voice-channel)
     * [Vexera is saying "Voice Connection Timeout"](#vexera-is-saying-voice-connection-timeout)
@@ -28,38 +31,51 @@ You should now be able to see embed messages.
 
 ### Vexera is not responding to my commands
 First of all, you should check if Vexera has permission to view the text channel you are using for bot commands.<br/>
-If this seems to work, try `+channeltoggle`. Commands might have been disabled in the channel.<br/>
+If that is valid, try `+channeltoggle`. Commands might have been disabled in the channel.<br/>
 If that still does not work, try resetting the prefix to its default (`+`) by doing `@Vexera#8487 prefix disable`.<br/>
-Last but not least you should check if you used an `+accessrole` to only allow one role to use the bot. If so, add the role to yourself and do `+accessrole disable`.<br/>
+Last but not least, you should check if you used an `+accessrole` to only allow one role to use the bot. If so, add the role to yourself and do `+accessrole disable`.<br/>
 Owners bypass all permissions for Vexera and can use `+accessrole disable` without adding the role to themselves first.
 
+### Vexera is responding with random or shockingly accurate messages
+This feature is called Cleverbot. Vexera uses a 3rd party service which lets you talk with Vexera.<br/>
+To use this, you can either mention Vexera or use the prefix and add a message, for example, `+Hello there!` or `@Vexera#8487 How are you?`.<br/>
+If you wish to disable this feature, please issue the command `+perms deny everyone vexera.cleverbot`
+
 ### Where, why and how to get premium?
-If you subscribe for $3/month via <a href="https://www.patreon.com/bePatron?c=703870&rid=1291630" target="_blank">Patreon</a>, you get access to all the premium features.<br/>
-Alternatively, you can make a one-time purchase on <a href="https://selly.gg/u/vexera" target="_blank">Selly</a>.<br/>
-**Important information:** You get the features on every server you **own**!
+If you subscribe for $3/month via Patreon, you get access to all the premium features.<br/>
+If you subscribe for $5/month however, you get access to all premium features **and** Vexera Pro. This way you can have two Vexeras in your server!<br/>
+**Important information:** You get the features on every server you **own**!<br/>
+You can find our Patreon [here](https://www.patreon.com/bePatron?c=703870&rid=1291630)!
+
+### I bought Vexera Premium but the features do not work
+Please make sure you actually **own** the server. The `Administrator` permission is not enough to activate premium on your server. To check if you are the owner of the server, you can go to *Server Settings* → *Members* and search for your name. If you have a crown next to your name, you are the owner of the server. There can only be a **single** owner.<br/>
+You can transfer your subscription to the server owner in order to activate premium features by using `+transfer @serverowner`. Replace `@serverowner` with the mention of the server owner.<br/>
+**Note that this will transfer all perks to this server owner and you will lose access to Vexera Premium on any other servers you own.**<br/>
+Also, make sure you linked your Discord account with your Patreon account. This can be done on Patreon's website.<br/>
+A similar issue could be that you bought Vexera Premium, or linked your account, in the last few minutes. Please allow up to **five** minutes until Vexera Premium is available to you.
 
 ## Music issues
 
 ### Vexera is not joining my voice channel
-First, you should take a look at the channel and role permissions of Vexera. Make sure Vexera has permission to join the voice channel and also speak in it.<br/>
+First, you should take a look at the channel and Vexera's permissions. Make sure Vexera has permissions to join the voice channel and also speak in it.<br/>
 You should also check if the link you entered is **valid**. The bot only accepts YouTube, Twitch, SoundCloud and Mixer links.<br/>
-Additionally, premium members are able to use **HTTP streams**. Want to know more about premium perks? [Click here](https://vexera.io/premium).
+Additionally, premium members are able to use **HTTP streams** and **Spotify Playlists**. Interested in Vexera Premium? You can know more about it by [clicking here](https://vexera.io/premium).
 
 ### Vexera is saying "Voice Connection Timeout"
 Try kicking Vexera out of the voice channel by using `+vckick @Vexera#8487` to reset the voice connection.<br/>
-If that doesn't work, switch the region the bot is connected to: `+join eu` if you're on the **US** node, `+join us` if you're on the **EU** node. If you are a premium user you can also do `+join premium`.<br/>
-To check what voice node you are on, look at the bottom of the last *Now Playing* message. Alternatively, Vexera uses the node, which is closest to your server voice region.<br/>
+If that doesn't work, switch the region the bot is connected to: `+join eu:node01` if you're on the **node02** node and `+join eu:node02` if you're on the **node01** node. As a premium user, you can do `+join premium`.<br/>
+To check what voice node you are on, look at the bottom of the last *Now Playing* message.<br/>
 When you're all done, play music again.
 
 ### Vexera is in a voice channel but is not playing anything
 You're most likely experiencing the ["Voice Connection Timeout"](#vexera-is-saying-voice-connection-timeout) issue.<br/>
 Try kicking Vexera out of the voice channel by using `+vckick @Vexera#8487` to reset the voice connection.<br/>
-If that doesn't work, switch the region the bot is connected to: `+join eu` if you're on the **US** node, `+join us` if you're on the **EU** node. If you are a premium user you can also do `+join premium`.<br/>
-To check what voice node you are on, look at the bottom of the last *Now Playing* message. Alternatively, Vexera uses the node, which is closest to your server voice region.<br/>
+If that doesn't work, switch the region the bot is connected to: `+join eu:node01` if you're on the **node02** node and `+join eu:node02` if you're on the **node01** node. As a premium user, you can do `+join premium`.<br/>
+To check what voice node you are on, look at the bottom of the last *Now Playing* message.<br/>
 When you're all done, play music again.
 
 ### "The queue can only hold 2000 songs!"
-The queue is capable of holding up to 2000 songs. To reset the queue, use `+clear`, otherwise you will not be able to add new songs to the queue.
+The queue is capable of holding up to 2000 songs. To reset the queue, use `+clear`, otherwise, you will not be able to add new songs to the queue.
 
 ## Admin issues
 
@@ -75,9 +91,10 @@ For information about autorole, please visit our [documentation about autoroles]
 For information about the built-in permission system, please visit our [documentation about permissions](/docs/permissions).
 
 ### How do I limit Vexera to a specific role?
-First, setup a role, if there is not already one.<br/>
-Then, assign the role to people you want to be able to use Vexera.<br/>
-Finally, execute the command `+accessrole <rolename>`.<br/>
-**Note:** the `<`/`>` are not actually used in the command.<br/>
+First, setup a role if there is not already one.<br/>
+Then, assign the role to the users you want to be able to use Vexera.<br/>
+Finally, execute the command `+accessrole <Role>`.<br/>
+**Note:** the `<` and `>` are not actually used in the command.<br/>
 If you want to disable the accessrole, use `+accessrole disable`.<br/>
-If you locked yourself out, assign the role to yourself, which has been used for `+accessrole`.
+In the case you locked yourself out, assign the role to yourself which has been used for `+accessrole`.<br/>
+Owners bypass all permissions for Vexera and can use `+accessrole disable` without adding the role to themselves first.
