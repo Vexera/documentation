@@ -14,7 +14,7 @@ Those commands are pretty much commands for quick jokes and other stuff.
     * Demand a Chuck Norris joke? Run `+chucknorris`
     * Feel more like a yomamma joke? Run `+yomamma`
 4. **Emotify** your text!
-    * Want to bring some color into your text? Run `+emojify <text>`
+    * Want to bring some color into your text? Run `+emojify <Text>`
 5. Want to **look up a word** quickly?
     * Then `+urban <Query>` is for you!
 

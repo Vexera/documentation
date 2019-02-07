@@ -57,7 +57,7 @@ A similar issue could be that you bought Vexera Premium, or linked your account,
 ## Music issues
 
 ### Vexera is not joining my voice channel
-First, you should take a look at the channel and Vexera's permissions. Make sure Vexera has permissions to join the voice channel and also speak in it.<br/>
+First, you should take a look at the channel and Vexera's permissions. Make sure Vexera has permissions to join the voice channel and also to speak in it.<br/>
 You should also check if the link you entered is **valid**. The bot only accepts YouTube, Twitch, SoundCloud and Mixer links.<br/>
 Additionally, premium members are able to use **HTTP streams** and **Spotify Playlists**. Interested in Vexera Premium? You can know more about it by [clicking here](https://vexera.io/premium).
 
