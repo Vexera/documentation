@@ -21,5 +21,5 @@ There, just grant Vexera the `Administrator` permission, choose a server and inv
 
 ## Starting with commands
 
-You can get a **list of commands** either in the documentation (here) or by using `+help`.<br/>
-To get some more info about a command use `+help [Command]` or check the documenation for an extended description of every command.
+You can get a **list of commands** either on the [commands page](/commands) or by using `+help` in your server.<br/>
+To get some more info about a command use `+help [command]` or check the documentation for an extended description of every command.
