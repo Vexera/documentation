@@ -1,5 +1,5 @@
 # Game Commands
-Vexera doesn't have many features for games yet, but it's something.
+Vexera doesn't have many features for games yet but they are being worked on constantly.
 
 ## Fortnite
 You can check your fortnite stats by using `+fortnite <Plaform> <Username>`.<br/>
