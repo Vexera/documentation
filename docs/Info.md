@@ -46,7 +46,7 @@ Wolfram can tell you nearly everything you want to know, try out some stuff like
 ### Logo
 Want to get your own Vexera-logo? We have an API for that!<br/>
 To create it, you would have to run this command: `+logo "<Title>" "<Description>"`.<br/>
-For you to understand it easier, here's an example: `+logo "Vexera" "is awesome"!`<br/>
+For you to understand it easier, here's an example: `+logo "Vexera" "is awesome!"`<br/>
 ![Example](https://paste.vexera.io/65ff25.png)
 
 ### Botlist
