@@ -1,11 +1,12 @@
 # Documentation
 Welcome to Vexera's documentation page!
 
-Vexera is a **free Discord music bot** with lots of other **features**. This documentation was made to assist users with using Vexera's features.  
-The bot is made to be very simple to use and to get to what you want to do with it very fast.  
+Vexera is a **free Discord music bot** with lots of other features such as moderation for example. This documentation was made to assist users with using Vexera's features.  
+Vexera is intended to be easy to use by our users.
+
+If you have any questions, please do not hesitate to [join our community and support server by clicking here](https://discord.gg/f3qKB5Z).
 
 ## Topics:
-
 1. [Getting Started](/docs/gs)
 2. [FAQ](/docs/faq)
 3. [Music](/docs/music)

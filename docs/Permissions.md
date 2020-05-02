@@ -1,8 +1,7 @@
 # Permissions
 To control what can be used on Vexera, we offer an advanced permissions system so you can decide who can do what on your server.
 
-## Permission Nodes
-
+## Permission nodes
 A permission node represents a single command or a whole category of commands. Examples:
 
 - `music.play` - The 'play' command.
@@ -16,9 +15,7 @@ A permission node can be:
 - **Neutral**: No override has been set.
 
 ## Where can I find all the permission nodes?
-
-You can either get a list within discord by doing `+perms nodes` or by visiting the [commands page](/commands).
+You can either get a list within Discord by using `+perms nodes` or by visiting the [commands page](/commands).
 
 ## How do I use permissions?
-
-Permissions can be controled by using [Vexera's web dashboard](/auth), or within Discord by running `+perms`.
+Permissions can be controlled by using [Vexera's web dashboard](/auth), or within Discord by running `+perms`.

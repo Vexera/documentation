@@ -2,18 +2,14 @@
 Do you have an important question? Check out our FAQ below. If you still need support after reading through the FAQ, feel free to contact us on our <a href="https://discord.gg/VzbRGWF" target="_blank">Discord</a>.
 
 ## Table of Contents:
-
 * [General issues](#general-issues)
     * [Why do I see empty messages?](#why-do-i-see-empty-messages)
     * [Vexera is not responding to my commands](#vexera-is-not-responding-to-my-commands)
-    * [Vexera is responding with random or shockingly accurate messages](#vexera-is-responding-with-random-or-sockingly-acurate-messages)
-    * [Where, why and how to get premium?](#where-why-and-how-to-get-premium)
-    * [I bought Vexera Premium but the features do not work](#i-bought-vexera-premium-but-the-features-do-not-work)
-    * [I bought Vexera Pro but the bot keeps leaving my server when I invite it](#i-bought-vexera-pro-but-the-bot-keeps-leaving-my-server-when-i-invite-it)
+    * [Where, why and how to get Vexera Premium/Pro?](#where-why-and-how-to-get-vexera-premiumpro)
+    * [I bought Vexera Premium/Pro but the features do not work](#i-bought-vexera-premiumpro-but-the-features-do-not-work)
 * [Music issues](#music-issues)
     * [Vexera is not joining my voice channel](#vexera-is-not-joining-my-voice-channel)
-    * [Vexera is saying "Voice Connection Timeout"](#vexera-is-saying-voice-connection-timeout)
-    * [Vexera is in a voice channel but is not playing anything](#vexera-is-in-a-voice-channel-but-is-not-playing-anything)
+    * [Vexera is not playing music](#vexera-is-not-playing-music)
     * ["The queue can only hold 2000 songs!"](#the-queue-can-only-hold-2000-songs)
 * [Admin issues](#admin-issues)
     * [Why are some admin features not working?](#why-are-some-admin-features-not-working)
@@ -36,18 +32,13 @@ If that still does not work, try resetting the prefix to its default (`+`) by do
 Last but not least, you should check if you used an `+accessrole` to only allow one role to use the bot. If so, add the role to yourself and do `+accessrole disable`.<br/>
 Owners bypass all permissions for Vexera and can use `+accessrole disable` without adding the role to themselves first.
 
-### Vexera is responding with random or shockingly accurate messages
-This feature is called Cleverbot. Vexera uses a 3rd party service which lets you talk with Vexera.<br/>
-To use this, you can either mention Vexera or use the prefix and add a message, for example, `+Hello there!` or `@Vexera#8487 How are you?`.<br/>
-If you wish to disable this feature, please issue the command `+perms deny everyone vexera.cleverbot`
-
-### Where, why and how to get premium?
+### Where, why and how to get Vexera Premium/Pro?
 If you subscribe for $3/month via Patreon, you get access to all the premium features.<br/>
 If you subscribe for $5/month however, you get access to all premium features **and** Vexera Pro. This way you can have two Vexeras in your server!<br/>
 **Important information:** You get the features on every server you **own**!<br/>
 You can find our Patreon [here](https://www.patreon.com/bePatron?c=703870&rid=1291630)!
 
-### I bought Vexera Premium but the features do not work
+### I bought Vexera Premium/Pro but the features do not work
 Please make sure you actually **own** the server. The `Administrator` permission is not enough to activate premium on your server. To check if you are the owner of the server, you can go to *Server Settings* → *Members* and search for your name. If you have a crown next to your name, you are the owner of the server. There can only be a **single** owner.<br/>
 You can transfer your subscription to the server owner in order to activate premium features by using `+transfer @serverowner`. Replace `@serverowner` with the mention of the server owner.<br/>
 **Note that this will transfer all perks to this server owner and you will lose access to Vexera Premium on any other servers you own.**<br/>
@@ -55,23 +46,31 @@ Also, make sure you linked your Discord account with your Patreon account. This 
 A similar issue could be that you bought Vexera Premium, or linked your account, in the last few minutes. Please allow up to **five** minutes until Vexera Premium is available to you.
 
 ## Music issues
+**This is a step-by-step guide to resolve most music issues:**
+
+1. Try changing your server region to something other than Europe.
+2. Use `​+stop`​, then `​+join de-voice-1`​
+3. Use `​+stop`​, then `​+join de-voice-2`​
+4. Try changing your server region again. After this, repeat step 2 or 3.
+5. Clear your queue with `​+clear`​. After you have cleared the queue, repeat steps 1 to 3.
+
+**If you are a premium user, please use the following guide instead:**
+
+1. Try changing your server region to something other than Europe. Go to step 2/3.
+2. Use `​+stop`​, then `​+join de-voice-1-1`​
+3. Use `​+stop`​, then `​+join de-voice-2-1`​
+4. Try changing your server region again. After this, repeat step 2 or 3.
+5. Clear your queue with `​+clear`​. You can save it first by using `​+dump all`​ before clearing, I'd advise doing this only if the queue content is important. After you have cleared the queue, repeat steps 1 to 3. Copy the link from the dump command and use `​+play`​ with it to get all songs back in the queue.
 
 ### Vexera is not joining my voice channel
 First, you should take a look at the channel and Vexera's permissions. Make sure Vexera has permissions to join the voice channel and also to speak in it.<br/>
 You should also check if the link you entered is **valid**. The bot only accepts YouTube, Twitch, SoundCloud and Mixer links.<br/>
-Additionally, premium members are able to use **HTTP streams** and **Spotify Playlists**. Interested in Vexera Premium? You can know more about it by [clicking here](https://vexera.io/premium).
+Additionally, premium members are able to use **HTTP streams** and **Spotify playlists**. Interested in Vexera Premium? You can know more about it by [clicking here](https://vexera.io/premium).
 
-### Vexera is saying "Voice Connection Timeout"
+### Vexera is not playing music
 Try kicking Vexera out of the voice channel by using `+vckick @Vexera#8487` to reset the voice connection.<br/>
-If that doesn't work, switch the region the bot is connected to: `+join eu:node01` if you're on the **node02** node and `+join eu:node02` if you're on the **node01** node. As a premium user, you can do `+join premium`.<br/>
-To check what voice node you are on, look at the bottom of the last *Now Playing* message.<br/>
-When you're all done, play music again.
-
-### Vexera is in a voice channel but is not playing anything
-You're most likely experiencing the ["Voice Connection Timeout"](#vexera-is-saying-voice-connection-timeout) issue.<br/>
-Try kicking Vexera out of the voice channel by using `+vckick @Vexera#8487` to reset the voice connection.<br/>
-If that doesn't work, switch the region the bot is connected to: `+join eu:node01` if you're on the **node02** node and `+join eu:node02` if you're on the **node01** node. As a premium user, you can do `+join premium`.<br/>
-To check what voice node you are on, look at the bottom of the last *Now Playing* message.<br/>
+If that doesn't work, switch the region the bot is connected to: `+join de-voice-1` or `+join de-voice-2` depending on what voice node you are currently connected to. As a premium user, you can change to any of the two premium voice nodes with `+join de-voice-1-1` and `+join de-voice-2-1`.<br/>
+To check what voice node you are on, look at the bottom of the last **now playing message**.<br/>
 When you're all done, play music again.
 
 ### "The queue can only hold 2000 songs!"

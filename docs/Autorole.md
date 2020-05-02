@@ -3,11 +3,13 @@ Not sure how the `+autorole` command works? Then you've come to the right place!
 
 ## About
 The `+autorole` command is for letting the bot add roles to users or bots when they join, or when members use `+getrole`.<br/>
-Before we begin, here's an important note:<br/>
-**Vexera's highest role must be above the role it is trying to assign!**
+Before we begin, here are some important notes:
+
+* Vexera's highest role must be above the role it is trying to assign!
+* The role you are trying to automate already needs to exist on your server!
 
 ## Add an autorole
-Basic command: `+autorole add <Type> <Role>`.
+Basic command: `+autorole add <type> <role>`.
 
 ### New server member joins the server (join)
 To give users who join the server the *Members* role, use `+autorole add join Members`.
