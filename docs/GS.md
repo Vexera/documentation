@@ -15,8 +15,7 @@ There, just grant Vexera the `Administrator` permission, choose a server and inv
 > but try not to play around with Vexera's permissions if you don't know what you are doing. 
 > You can find more information about **Discord's permission system** [here](https://support.discordapp.com/hc/en-us/articles/214836687-Role-Management-101).
 
-![Invite screen](https://i.fabio.gg/egjTJ1q.png) <br/>
-![Permissions screen](https://i.fabio.gg/93sMu7D.png)
+![Invite screen](https://i.fabio.gg/egjTJ1q.png)
 
 ## Starting with commands
 You can get a **list of commands** either on the [commands page](/commands) or by using `+help` in your server.<br/>

@@ -1,4 +1,4 @@
-# Game Commands
+# Games
 Vexera doesn't have many features for games yet but they are being worked on constantly.
 
 ## Fortnite

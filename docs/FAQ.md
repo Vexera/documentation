@@ -5,12 +5,12 @@ Do you have an important question? Check out our FAQ below. If you still need su
 * [General issues](#general-issues)
     * [Why do I see empty messages?](#why-do-i-see-empty-messages)
     * [Vexera is not responding to my commands](#vexera-is-not-responding-to-my-commands)
-    * [Where, why and how to get Vexera Premium/Pro?](#where-why-and-how-to-get-vexera-premiumpro)
-    * [I bought Vexera Premium/Pro but the features do not work](#i-bought-vexera-premiumpro-but-the-features-do-not-work)
+    * [Where, why and how to get Vexera Premium/Pro?](#where-why-and-how-to-get-vexera-premium-pro)
+    * [I bought Vexera Premium/Pro but the features do not work](#i-bought-vexera-premium-pro-but-the-features-do-not-work)
 * [Music issues](#music-issues)
     * [Vexera is not joining my voice channel](#vexera-is-not-joining-my-voice-channel)
     * [Vexera is not playing music](#vexera-is-not-playing-music)
-    * ["The queue can only hold 2000 songs!"](#the-queue-can-only-hold-2000-songs)
+    * ["The queue can only hold 2000 songs!"](#quot-the-queue-can-only-hold-2000-songs-quot)
 * [Admin issues](#admin-issues)
     * [Why are some admin features not working?](#why-are-some-admin-features-not-working)
     * [How do you use +autorole?](#how-do-you-use-autorole)
@@ -22,7 +22,7 @@ Do you have an important question? Check out our FAQ below. If you still need su
 ### Why do I see empty messages?
 This is a client-side problem. Please check if **Link Preview** is enabled.<br/>
 To check, go to *User Settings* -> *Text & Images* -> *Link Preview*.<br/>
-Enable **Show website preview info from links pasted into chat.**.<br/>
+Enable **Show website preview info from links pasted into chat**.<br/>
 You should now be able to see embed messages.
 
 ### Vexera is not responding to my commands
