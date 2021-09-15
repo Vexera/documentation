@@ -8,10 +8,10 @@ Vexera provides a **feature-rich music system** so you can **play music** in the
 4. Queue up additional music using the `+play` command again!
 
 ### Searching a song
-If Vexera adds an incorrect song to the queue, you can either copy the correct song's URL and `+play` it, or you can try to use `+search <query>` to be able to select a song out of the first five YouTube results. Just write the number of the wished song after issuing the command.  
+If Vexera adds an incorrect song to the queue, you can either copy the correct song's URL and `+play` it, or you can try to use `+search <query>` to be able to select a song out of the first five results from our database. Just write the number of the wished song after issuing the command.  
 
 ### Music sources
-Vexera can play music from YouTube, Spotify, SoundCloud, Bandcamp, Twitch, Vimeo and Mixer. The Spotify integration is only available with Vexera Premium. You can play singles, EPs and playlists. Please note that Spotify songs get played through YouTube and not through Spotify itself. You may hear a slightly or completely different version than expected. Additionally, albums are not yet supported but will be in the near future. As a Vexera Premium user you are also able to play a song from a custom url, for example `+play https://example.com/files/BrainPower.mp3`.
+Vexera can play music from Spotify, SoundCloud, Bandcamp, Twitch and Vimeo. The Spotify integration is only available with Vexera Premium. You can play singles, EPs and playlists. You may hear a slightly or completely different version than expected. Additionally, albums are not yet supported but will be in the near future. As a Vexera Premium user you are also able to play a song from a custom url, for example `+play https://example.com/files/BrainPower.mp3`.
 
 ## Viewing the queue
 You can view the queue by running `+queue`. If your queue has multiple pages, you can view them by doing `+queue <page>`.<br/>
