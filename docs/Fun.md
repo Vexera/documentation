@@ -12,9 +12,7 @@ Those commands are pretty much commands for quick jokes and other stuff.
 3. Want some **jokes**? These commands are for you then.
     * Demand a Chuck Norris joke? Run `+chucknorris`
     * Feel more like a yomamma joke? Run `+yomamma`
-4. **Emotify** your text!
-    * Want to bring some color into your text? Run `+emojify <text>`
-5. Want to **look up a word** quickly?
+4. Want to **look up a word** quickly?
     * Then `+urban <query>` is for you!
 
 ## Meme commands
